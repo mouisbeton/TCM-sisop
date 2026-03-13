@@ -1,6 +1,4 @@
-# Praktikum Linux & Shell Scripting 
-
-Dokumentasi praktikum komprehensif yang mencakup materi dasar Linux, Shell Scripting, Data Processing dengan AWK, dan proyek-proyek praktis.
+# Modul 1 Sistem Operasi
 
 ---
 

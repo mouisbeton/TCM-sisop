@@ -1,10 +1,10 @@
-# Praktikum Linux & Shell Scripting - Panduan Lengkap
+# Praktikum Linux & Shell Scripting 
 
 Dokumentasi praktikum komprehensif yang mencakup materi dasar Linux, Shell Scripting, Data Processing dengan AWK, dan proyek-proyek praktis.
 
 ---
 
-## 📚 Daftar Isi
+## Daftar Isi
 
 1. [Materi Modul 1](#materi-modul-1)
    - [Perintah dan Navigasi](#perintah-dan-navigasi)
@@ -1075,22 +1075,7 @@ Folder `playground/` berisi berbagai script latihan untuk praktek:
 - `while.sh` - While loop
 - `function.sh` - Deklarasi dan pemanggilan fungsi
 
-**Python Scripts:**
-- `aba.py`, `aca.py`, `ada.py` - Script praktik Python
 
-**Data Files:**
-- `ada.txt`, `apa.txt`, `appa.txt`, `ara.txt`, `asa.txt`, `kerajaan.txt` - Files untuk latihan processing
-
----
-
-## Cara Menggunakan Repository Ini
-
-1. **Belajar Materi:** Baca bagian-bagian di atas untuk memahami konsep dasar
-2. **Lihat Contoh:** Pelajari script di `playground/` untuk contoh implementasi
-3. **Kerja dengan Task:** Buka task di `contoh-soal-dan-solusi/` sesuai topik yang ingin dipelajari
-4. **Praktek:** Modifikasi script atau buat script baru berdasarkan pola yang sudah dipelajari
-
----
 
 ## Sumber Daya Tambahan
 

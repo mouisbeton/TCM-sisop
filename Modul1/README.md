@@ -14,11 +14,15 @@ Dokumentasi praktikum komprehensif yang mencakup materi dasar Linux, Shell Scrip
    - [Cron Jobs](#cron-jobs)
    - [AWK](#awk)
 
-2. [Soal-soal Praktik](#soal-soal-praktik)
-   - [Contoh Soal Task 1: Data Analysis dengan AWK](#contoh-soal-task-1)
-   - [Contoh Soal Task 2: Log Processing & User Management](#contoh-soal-task-2)
-   - [Contoh Soal Task 3: System Automation & Security](#contoh-soal-task-3)
-   - [Contoh Soal Task 4: Monitoring & Reporting](#contoh-soal-task-4)
+2. [Contoh Soal dan Solusi](#contoh-soal-dan-solusi)
+   - [Task 1: Filter & Analisis Data CSV](#task-1-filter--analisis-data-csv)
+   - [Task 2: Log Processing](#task-2-log-processing)
+   - [Task 3: User Management & File Handling](#task-3-user-management--file-handling)
+   - [Task 4: System Monitoring & Automation](#task-4-system-monitoring--automation)
+   - [Playground Directory](#playground-directory)
+
+3. [Cara Menggunakan Repository](#cara-menggunakan-repository-ini)
+4. [Sumber Daya Tambahan](#sumber-daya-tambahan)
 
 ---
 
@@ -980,6 +984,111 @@ command >> output.txt
 command > /dev/null
 command 2>&1 > /dev/null
 ```
+
+---
+
+---
+
+## Contoh Soal dan Solusi
+
+### Daftar Task
+
+Workspace ini menyediakan beberapa contoh soal dan solusi yang dapat dijadikan referensi:
+
+#### [Task 1: Filter & Analisis Data CSV](contoh-soal-dan-solusi/task-1-social-media-analysis/)
+**Topik:** AWK, Data Processing, Pattern Matching
+
+Praktik menggunakan AWK untuk:
+- Filter data berdasarkan kondisi multiple (pattern matching)
+- Mencari data dengan regex (mengandung angka, tidak mengandung underscore)
+- Aggregasi data per kategori
+
+**File:**
+- `products.csv` - Sample data produk
+- `solution_1a.sh` - Filter produk berdasarkan kriteria
+- `solution_1b.sh` - Hitung total stock per kategori
+
+---
+
+#### [Task 2: Log Processing](contoh-soal-dan-solusi/task-2-server-logs/)
+**Topik:** Text Processing, Data Aggregation, Join Operation
+
+Praktik menggunakan:
+- `awk`, `grep`, `sort`, `uniq` untuk processing log file
+- Counting dan aggregation
+- Join data dari multiple files (logs dan user mapping)
+
+**File:**
+- `access.log` - Sample server access log
+- `users.csv` - User IP mapping
+- `solution_2a.sh` - Hitung request per IP
+- `solution_2b.sh` - Join log dengan user data
+
+---
+
+#### [Task 3: User Management & File Handling](contoh-soal-dan-solusi/task-3-user-management/)
+**Topik:** Input Validation, File I/O, String Manipulation, Logging
+
+Praktik membuat script untuk:
+- Validasi password (panjang, karakter khusus, huruf besar, angka)
+- Simpan data terstruktur ke file
+- Catat aktivitas ke log dengan timestamp
+
+**File:**
+- `register.sh` - Script registrasi user dengan validasi
+- `users.txt` - File penyimpanan user (format: username:password)
+- `log.txt` - File log aktivitas registrasi
+
+---
+
+#### [Task 4: System Monitoring & Automation](contoh-soal-dan-solusi/task-4-system-logs/)
+**Topik:** System Commands, Data Collection, Automation, Logging
+
+Praktik mengumpulkan dan mencatat:
+- Penggunaan RAM dengan `free -m`
+- Ukuran folder dengan `du -sh`
+- Simpan metrics ke file dengan timestamp
+- Dapat dijadwalkan dengan cron untuk monitoring otomatis
+
+**File:**
+- `monitor.sh` - Script monitoring sistem
+- `metrics_YYYYMMDD.log` - File log hasil monitoring
+
+---
+
+### Playground Directory
+
+Folder `playground/` berisi berbagai script latihan untuk praktek:
+
+**Shell Scripts:**
+- `hello.sh` - Hello world dasar
+- `variable.sh` - Deklarasi dan penggunaan variabel
+- `quoting.sh` - Single quote, double quote, escaping
+- `if-else.sh` - Percabangan if-else-elif
+- `relational.sh` - Operator perbandingan
+- `logical.sh` - Operator logika (AND, OR, NOT)
+- `arithmetic.sh` - Operasi aritmatika
+- `special.sh` - Variabel special ($0, $1, $#, $?, dll)
+- `for-c.sh` - For loop gaya C
+- `for-in.sh` - For loop iterasi list
+- `for-array.sh` - For loop dengan array
+- `while.sh` - While loop
+- `function.sh` - Deklarasi dan pemanggilan fungsi
+
+**Python Scripts:**
+- `aba.py`, `aca.py`, `ada.py` - Script praktik Python
+
+**Data Files:**
+- `ada.txt`, `apa.txt`, `appa.txt`, `ara.txt`, `asa.txt`, `kerajaan.txt` - Files untuk latihan processing
+
+---
+
+## Cara Menggunakan Repository Ini
+
+1. **Belajar Materi:** Baca bagian-bagian di atas untuk memahami konsep dasar
+2. **Lihat Contoh:** Pelajari script di `playground/` untuk contoh implementasi
+3. **Kerja dengan Task:** Buka task di `contoh-soal-dan-solusi/` sesuai topik yang ingin dipelajari
+4. **Praktek:** Modifikasi script atau buat script baru berdasarkan pola yang sudah dipelajari
 
 ---
 

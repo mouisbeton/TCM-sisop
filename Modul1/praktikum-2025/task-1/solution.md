@@ -1,7 +1,5 @@
 # Solution - Task 1: Top Global New Jeans
 
-Dokumen ini menjelaskan setiap blok kode yang digunakan untuk menyelesaikan subtask A-D berdasarkan skrip yang ada.
-
 ## Subtask A
 **File rujukan:** new-jeans-a.sh
 

@@ -1,7 +1,5 @@
 # Solution - Task 4: Proxy Terbaik di New Eridu
 
-Dokumen ini menjelaskan tiap blok kode berdasarkan skrip yang ada.
-
 ## Subtask A - Log 5 Menit
 **File rujukan:** minute5_log.sh
 

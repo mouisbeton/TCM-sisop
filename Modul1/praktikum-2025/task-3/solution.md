@@ -1,7 +1,5 @@
 # Solution - Task 3: Ignatius Si Cloud Engineer
 
-Dokumen ini menjelaskan tiap blok kode berdasarkan skrip yang ada.
-
 ## Subtask A - Register dan Login
 **File rujukan:** register.sh, login.sh
 

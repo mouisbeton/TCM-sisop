@@ -1,7 +1,5 @@
 # Solution - Task 2: Liburan Bersama Rudi
 
-Dokumen ini menjelaskan setiap blok kode untuk subtask A-C berdasarkan skrip yang ada.
-
 ## Subtask A
 **File rujukan:** rudi-a.sh
 

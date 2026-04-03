@@ -434,33 +434,33 @@ shmctl(shmid, IPC_RMID, NULL);
 
 Folder **`contoh-soal-dan-solusi/`** menyediakan berbagai contoh soal dan solusi yang dirancang untuk membantu Anda memahami konsep-konsep fundamental dari Modul 2.
 
-### 📚 Daftar Contoh Soal
+### Daftar Contoh Soal
 
 #### **Task 1: Processes dan Fork** 
 Memahami pembuatan proses, parent-child relationship, dan synchronization.
 - **Soal a)** - Parent-Child Processes: Membuat 2 child processes
 - **Soal b)** - Process dengan Arguments: Menerima parameter dan conditional logic
-- 📁 [Lihat folder task-1-processes-dan-fork](contoh-soal-dan-solusi/task-1-processes-dan-fork/)
+- [Lihat folder task-1-processes-dan-fork](contoh-soal-dan-solusi/task-1-processes-dan-fork/)
 
 #### **Task 2: Pipes dan Komunikasi Antar Proses**
 IPC menggunakan pipes untuk komunikasi antar proses.
 - **Soal a)** - Pipe Sederhana: Parent menulis, child membaca
 - **Soal b)** - Bidirectional Communication: Dua pipes untuk komunikasi dua arah
-- 📁 [Lihat folder task-2-pipes-dan-komunikasi](contoh-soal-dan-solusi/task-2-pipes-dan-komunikasi/)
+- [Lihat folder task-2-pipes-dan-komunikasi](contoh-soal-dan-solusi/task-2-pipes-dan-komunikasi/)
 
 #### **Task 3: Shared Memory**
 IPC menggunakan shared memory untuk direct memory sharing antar proses.
 - **Soal a)** - Shared Memory Dasar: Parent menulis struct, child membaca dan modify
 - **Soal b)** - Multiple Processes: 2 children mengakses shared memory bersamaan
-- 📁 [Lihat folder task-3-shared-memory](contoh-soal-dan-solusi/task-3-shared-memory/)
+- [Lihat folder task-3-shared-memory](contoh-soal-dan-solusi/task-3-shared-memory/)
 
 #### **Task 4: Threads**
 Concurrent programming menggunakan threads dalam satu proses.
 - **Soal a)** - Threads Sederhana: 2 threads berjalan parallel
 - **Soal b)** - Threads dengan Shared Variable: 3 threads akses shared counter
-- 📁 [Lihat folder task-4-threads](contoh-soal-dan-solusi/task-4-threads/)
+- [Lihat folder task-4-threads](contoh-soal-dan-solusi/task-4-threads/)
 
-### 🚀 Cara Menggunakan Contoh Soal
+### Cara Menggunakan Contoh Soal
 
 1. Masuk ke folder task yang ingin dipelajari:
    ```bash
@@ -483,8 +483,6 @@ Concurrent programming menggunakan threads dalam satu proses.
    gcc -pthread -o solution_4a solution_4a.c
    ./solution_4a
    ```
-
-📖 **Lengkap dengan penjelasan detail, breakdown solusi, dan tips debugging!**
 
 ---
 
